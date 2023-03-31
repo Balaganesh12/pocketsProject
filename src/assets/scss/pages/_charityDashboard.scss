@@ -1,0 +1,1079 @@
+.tabs_header {
+    width: 70%;
+
+    .ant-tabs .ant-tabs-top .tab_bar .css-dev-only-do-not-override-ixblex {
+        .ant-tabs-nav {
+            background  : #fff !important;
+            padding-left: 47px !important;
+        }
+    }
+
+}
+
+.tab_header_content {
+    display        : flex;
+    justify-content: space-around;
+    cursor         : pointer;
+    background     : #fff;
+    padding        : 10px 0;
+    border-radius  : 10px;
+
+    li {
+        display : inline-block;
+        position: relative;
+        color   : #878787;
+    }
+
+    li::after {
+        content: "";
+        position: absolute;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 9px;
+        left: 0;
+        right: 0px;
+        left: -1px;
+        background: #252947;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+        margin: 0px 0px -10px 0;
+    }
+
+    li:hover::after {
+        transform       : scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .tab_count {
+        border        : 0.5px solid #878787;
+        border-radius : 8px;
+        color         : #878787;
+        letter-spacing: -0.3px;
+        font-weight   : 500;
+        font-size     : 12px;
+        padding       : 1px 12px;
+        margin-left: 3px;
+    }
+}
+
+.charity_main_dashboard .myproject_header{
+    display: none;
+}
+
+.payment_charity{
+    .payment_collected_amount{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: rgba(135, 135, 135, 1);
+        margin-top: 0px;
+}
+.payment_amount{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgba(37, 41, 71, 1);
+    margin-top: 0px;
+}
+}
+
+.payment_info{
+    display: flex;
+    margin-top: -17px;
+    .payment_settle_amount{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: rgba(135, 135, 135, 1);
+        margin-top: -4px;
+        margin-left: 6px;
+}
+}
+
+.payment_details{
+    display: flex;
+}
+
+.payment_pay_button{
+    float: right;
+    .payment_button_align{
+    background: rgba(37, 41, 71, 1);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 28px;
+    }
+    .payment_button_align:hover{
+        background: rgba(37, 41, 71, 1);
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        }
+        .ant-modal-content {
+            position: relative;
+            background-color: #ffffff;
+            background-clip: padding-box;
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 6px 16px 0 rgb(0 0 0 / 8%), 0 3px 6px -4px rgb(0 0 0 / 12%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+            pointer-events: auto;
+            padding: 29px 24px;
+        }
+        .ant-modal-body {
+            font-size: 14px;
+            line-height: 1.5714285714285714;
+            word-wrap: break-word;
+            margin-left: 27px;
+        }
+}
+
+.giftaid_card{
+    margin-top: 23px;
+    width: 132%;
+    border-radius: 9px;
+    height: 100px;
+    .payment_giftaid_details{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: rgba(135, 135, 135, 1);
+        margin-top: -5px;
+    }
+    .payment_giftaid_amount{
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: rgba(37, 41, 71, 1);
+        margin-top: -5px;
+    }
+}
+
+.giftaid_sec_card{
+    margin-top: 23px;
+    width: 82%;
+    border-radius: 9px;
+    height: 100px;
+    margin-left: 74px;
+    .payment_giftaid_sec_details{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: rgba(135, 135, 135, 1);
+        margin-top: -5px;
+    }
+    .payment_giftaid_sec_amount{
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: rgba(37, 41, 71, 1);
+        margin-top: -5px;
+    }
+}
+
+.tabs_header {
+
+    .ant-tabs .ant-tabs-top .tab_bar .css-dev-only-do-not-override-ixblex {
+        .ant-tabs-nav {
+            background  : #fff !important;
+            padding-left: 47px !important;
+        }
+    }
+
+    .tab_header_content {
+        width          : 142%;
+        display        : flex;
+        justify-content: space-around;
+        cursor         : pointer;
+        background     : #fff;
+        padding        : 0;
+        border-radius  : 10px;
+    
+        li {
+            display    : inline-block;
+            color      : #878787;
+            font-weight: 500;
+            font-size  : 16px;
+            padding    : 20px 0;
+            position: relative;
+    
+            &.active {
+                color        : #252947;
+                border-bottom: 3px solid;
+                margin: 0 0 0 3px;
+            }
+    
+            span {
+                &.active {
+                    border        : 0.5px solid #878787;
+                    background    : #252947;
+                    border-radius : 8px;
+                    color         : #ffffff;
+                    letter-spacing: -0.3px;
+                    font-weight   : 500;
+                    font-size     : 12px;
+                    padding       : 3px 7px;
+                }
+            }
+        }
+    
+        // li::after {
+        //     content         : "";
+        //     position        : absolute;
+        //     transform       : scaleX(0);
+        //     height          : 3px;
+        //     bottom          : 0;
+        //     left            : 0;
+        //     right           : 0px;
+        //     left            : -1px;
+        //     background      : #252947;
+        //     transform-origin: bottom right;
+        //     transition      : transform 0.25s ease-out;
+        //     margin          : 0;
+        // }
+    
+        li .active::after {
+            display: none;
+        }
+    
+        li:hover::after {
+            transform       : scaleX(1);
+            transform-origin: bottom left;
+        }
+    
+        li .active:hover::after {
+            display: none;
+        }
+    
+        .tab_count {
+            border        : 0.5px solid #878787;
+            border-radius : 8px;
+            color         : #878787;
+            letter-spacing: -0.3px;
+            font-weight   : 500;
+            font-size     : 12px;
+            padding       : 3px 7px;
+            width         : 25px;
+        }
+    }
+    
+}
+
+.payment_section2 {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+    margin-top: 23px;
+
+    .payment_section2_header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+        padding: 25px 0;
+
+
+        h1 {
+            font-weight: 700;
+            font-size: 16px;
+            color: #252947;
+            margin: 0;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+
+    }
+
+    .payment_amount_align2 {
+        background: #F5F5F5;
+        margin: 0 15px;
+        padding: 10px 0;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+
+        .payment_project_wise3 {
+            .payment_project_amnt2 {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 7%;
+                list-style-type: none;
+                padding-right: 22px;
+            }
+        }
+
+        .payment_project_wise2 {
+            display: flex;
+            justify-content: space-between;
+            width: 55%;
+
+            .payment_project_name2 {
+                font-weight: 500;
+                font-size: 14px;
+                color: #252947;
+                width: 40%;
+            }
+
+            .payment_project_date2 {
+                font-weight: 600;
+                font-size: 12px;
+                color: #878787;
+                width: 40%;
+                margin-left: 37px;
+            }
+        }
+    }
+}
+
+.select_arrow{
+    margin-right: 9px;
+}
+
+.collected_amount_active{
+    width: 8px;
+    height: 8px;
+    background: #252947;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.collected_amount_success{
+    width: 8px;
+    height: 8px;
+    background: #7FACD6;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-left:25px;
+}
+
+.charity_info{
+    background-color: #252947;
+     height: 26px;
+}
+
+.charity_details{
+    background-color: #fff;
+    margin: 0px 2px -24px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.charity_info_details{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700 ; 
+ font-size: 17px;
+}
+
+.charity_follower{
+    text-decoration: underline;
+    h4{
+      color: rgba(0, 0, 0, 1);
+      margin-left: 5px;
+    }
+    span{
+       color: rgba(135, 135, 135, 1);
+    }
+}
+
+.edit_button{
+    width: 28%;
+    height: 31px;
+    border-radius: 5px;
+    .edit_icon{
+      margin-left: 6px;
+      margin-top: 3px;
+    }
+}
+
+.charity_head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.charity__head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.charity_amount{
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.charity_sec_amount{
+    margin: 2px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.charity_green_graph{
+    margin-top: 7px;
+}
+
+.charity_app_fee{
+   color: rgba(194, 194, 194, 1);
+   font-size:12px;
+}
+
+.charity_gift_aid{
+    color: rgba(127, 172, 214, 1);
+    font-size:12px;
+}
+
+.charity_amount_percent{
+    color: #50CD89;
+    h4{
+        margin: 14px 0px 0px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    h5{
+        color: #C2C2C2; 
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.charity_amount__percent{
+    color: rgba(220, 0, 54, 1);
+    h4{
+        margin: 14px 0px 0px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    h5{
+        color: #C2C2C2; 
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.charity_dashboard{
+    margin-top: 49px;
+    h3{
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin-top: 4px;
+        margin-left: 13px;
+    }
+}
+
+.payment_popup_card{
+    width: 99%;
+    .ant-card-body{
+        background: rgba(245, 245, 245, 1);
+        border-radius: 5px;
+        border: none;
+    }
+}
+
+.payment_amount_charges{
+    display: flex;
+    margin-top: -26px;
+}
+
+.payment_transcation_amount{
+    text-align: right;
+    margin-left: 215px;
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+.payment_info_details{
+    display: flex;
+    .info_images{
+        margin-top: 17px;
+    }
+    p{
+        margin-left: 9px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: rgba(135, 135, 135, 1);
+        ;
+    }
+}
+
+.payment_popup_details{
+    p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 0px;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;  
+        margin-top: -10px;
+    }
+}
+
+.divider_line{
+    margin: 0px;
+}
+
+.payment_payable_amount{
+    display: flex;
+    margin-bottom: -15px;
+    .payment_credit{
+        font-family: 'Roboto', sans-serif;
+       font-weight: 700;
+       font-size: 14px;  
+    }
+    .payment_pounds{
+       float: right;
+       margin-left: 253px;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 700;
+       font-size: 14px; 
+    }
+}
+
+.payment_collected{
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+.payment_button{
+    float: right;
+    margin-top: -18px;
+    .cancel_button{
+        background-color: rgba(237, 237, 237, 1);
+        color: #101010;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+    }
+    .cancel_button:hover{
+        background-color: rgba(237, 237, 237, 1);
+        color: #101010;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+    }
+    .ok_button{
+        background-color: rgba(37, 41, 71, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+        margin-left: 8px;
+    }
+    .ok_button:hover{
+        background-color: rgba(37, 41, 71, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+        margin-left: 8px;
+    }
+}
+
+.payment_done_image{
+    margin-left: 163px;
+}
+
+.payment_success{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.payment_paid{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.done_button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgba(37, 41, 71, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-left: 179px;
+    width: 25%;
+    height: 48px;
+    margin-top: 11px;
+}
+
+.done_button:hover{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgba(37, 41, 71, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-left: 179px;
+    width: 25%;
+    height: 48px;
+    margin-top: 11px;
+}
+
+.projectcard_data {
+    display  : flex;
+    flex-wrap: wrap;
+    gap      : 15px;
+
+    .mantine-Card-root {
+        padding: 0;
+    }
+
+    .card_project_width {
+        width: 49%;
+
+        .ant-card-body {
+            padding: 0;
+        }
+
+        .card_img_project {
+            width        : 100%;
+            height       : 170px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .card_content_project {
+            margin: 0px 25px;
+
+            .pockets_project_top {
+                display        : flex;
+                justify-content: space-between;
+
+                .pockets_child_helpline {
+                    font-size  : 14px;
+                    font-weight: 600;
+                    margin     : 0;
+                    padding-top: 18px;
+                    cursor     : pointer;
+                }
+
+                .pockets_created {
+                    font-size     : 12px;
+                    font-weight   : 400;
+                    margin        : 0;
+                    padding-bottom: 15px;
+                    color         : #878787;
+                }
+
+                .pockets_medico_button {
+                    background-color: #ffffff;
+                    color           : #7facd6;
+                    border-color    : #7facd6;
+                    height          : 28px;
+                    margin-top      : 20px;
+                    margin-left     : 40px;
+                    right           : 50px;
+                    padding         : 0px 10px;
+                    font-size: 12px;
+                }
+
+                .pockets_more_icon {
+                    margin-top: 8px;
+                    font-size : 23px;
+                    width     : 14px;
+                }
+            }
+
+            .pockets_projects_para {
+                font-weight   : 400;
+                font-size     : 12px;
+                line-height   : 15px;
+                color         : #101010;
+                height        : 48px;
+                text-overflow : ellipsis;
+                overflow      : hidden;
+                // white-space: nowrap;
+            }
+
+            .count_sec {
+                display        : flex;
+                justify-content: space-between;
+                padding-bottom : 10px;
+
+                .pockets_project_count {
+                    margin     : 0;
+                    color      : #606060;
+                    font-weight: 500;
+                }
+
+                .pockets_earn {
+                    .amount_target {
+                        color: #878787;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Postcard_data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .card_post_width {
+        width: 48%;
+
+        .post_image {
+            height: 170px;
+            overflow: hidden;
+
+            .Post_slider {
+
+                width: 100%;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+
+            .slick-arrow.slick-prev {
+                position: absolute;
+                z-index: 999;
+                padding-top: 4px;
+                margin-left: 34px;
+                border-radius: 12px;
+                color: #292D32;
+                top: 90px;
+                background: #FFFFFF;
+                opacity: 0.5;
+                font-size: 13px;
+            }
+
+            .slick-arrow.slick-next {
+                right: 13px;
+                color: #292D32;
+                background: #FFFFFF;
+                opacity: 0.5;
+                font-size: 13px;
+                top: 90px;
+                padding-top: 4px;
+                border-radius: 12px;
+            }
+
+        }
+
+        .card_heading {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ant-card-body {
+            padding: 0;
+        }
+
+        .total_card_content {
+            padding: 0 15px 18px 15px
+        }
+    }
+}
+
+.like_bttn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    span {
+        font-size: 12px;
+    }
+
+    .like_align {
+        color: #101010;
+        cursor: pointer;
+    }
+
+    .Like_count {
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.3px;
+        color: #252947;
+
+    }
+
+    .Like_count:hover {
+        color: #50CD89;
+    }
+}
+
+.cardPara {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #101010;
+    margin: 4px 0 0 0;
+}
+
+.cardparaTwo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #878787;
+}
+
+.cardPara_title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #101010;
+}
+
+.cardBody {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #101010;
+    height: 75px;
+}
+
+.create_charity_sec {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        padding-left: 8px;
+        color: #252947;
+        margin-top: 16px;
+    }
+}
+
+.charity_add_button{
+    margin-left: 264px;
+}
+
+.payment_select{
+.ant-select-arrow{
+    margin-right: -9px;
+}
+}
+
+.post_charity_select{
+    margin-left: 14px;
+}
+
+.project_charity_select {
+    display: flex;
+    gap    : 15px;
+
+    .input_height_charity {
+        padding: 10px 15px;
+        width: 50%;
+        height: 50px;
+
+        .ant-select-selector {
+            width: 102%;
+            height: 40px;
+            padding: 0 11px;
+        }
+    }
+
+    .select_arrow {
+        display     : flex;
+        margin-right: 10px;
+
+        img {
+            margin-top: 30px;
+        }
+    }
+
+
+    .ant-select-selector:hover {
+        border-color: #252947;
+    }
+
+    .ant-select-selection-placeholder {
+        color      : #383838;
+        padding-top: 3px;
+    }
+
+    .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+        padding-inline-end: 0px;
+        margin-left: 22px;
+        margin-top: 4px;
+    }
+
+    .charity_select_counter {
+        border-radius   : 15px;
+        background-color: rgba(0, 0, 0, 0.2784313725);
+        color           : #524e4e;
+        padding         : 3px 7px 3px 7px;
+        margin-top      : 24px;
+        right           : 117px;
+        position        : relative;
+        font-size       : 14px;
+    }
+    input {
+        font-size    : 12px;
+        border-radius: 10px;
+        border       : 1px solid #252947;
+    }
+
+}
+
+.post_charity_select {
+    display: flex;
+    gap    : 15px;
+
+    .input_height_charity {
+        padding: 10px 15px;
+        width: 50%;
+        height: 50px;
+
+        .ant-select-selector {
+            width: 102%;
+            height: 40px;
+            padding: 0 11px;
+        }
+    }
+
+    .select_arrow {
+        display     : flex;
+        margin-right: 10px;
+
+        img {
+            margin-top: 30px;
+        }
+    }
+
+
+    .ant-select-selector:hover {
+        border-color: #252947;
+    }
+
+    .ant-select-selection-placeholder {
+        color      : #383838;
+        padding-top: 3px;
+    }
+
+    .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+        padding-inline-end: 0px;
+        margin-left: 28px;
+        margin-top: 4px;
+    }
+
+    .charity_select_counter {
+        border-radius   : 15px;
+        background-color: rgba(0, 0, 0, 0.2784313725);
+        color           : #524e4e;
+        padding         : 3px 7px 3px 7px;
+        margin-top      : 24px;
+        right           : 106px;
+        position        : relative;
+        font-size       : 14px;
+    }
+    input {
+        font-size    : 12px;
+        border-radius: 10px;
+        border       : 1px solid #252947;
+    }
+
+}
+
+.pockets_edit_icon{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.deactivatemodal{
+    h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #252947;
+    margin: 0;
+    }
+    p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(135, 135, 135, 1);
+    width: 64%;
+    }
+    .hideArchivemodal_btn {
+        display        : flex;
+        justify-content: flex-end;
+        gap            : 15px;
+
+        .hideArchivemodal_btn_cancel {
+
+            background   : #FFFFFF;
+            border-radius: 8px;
+            border       : 1.5px solid #252947;
+            width        : 25%;
+            height       : 45px;
+
+            span {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size  : 16px;
+                color      : #252947;
+            }
+        }
+
+        .hideArchivemodal_btn_yes {
+            background   : #252947;
+            border-radius: 8px;
+            width        : 28%;
+            height       : 45px;
+
+            span {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size  : 16px;
+                color      : #FFFFFF;
+            }
+        }
+    }
+}

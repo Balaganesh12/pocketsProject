@@ -1,0 +1,216 @@
+.transaction_details {
+
+    .payment_history_headertitle {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 5px;
+        margin-top: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: #f6f9ff;
+
+        .gif_head {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            color: #000000;
+        }
+    }
+
+    .payment_history_back {
+        img {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .payment_header_select {
+        margin-top: 12px;
+        display: flex;
+        gap: 10px;
+
+        .export_pdf {
+            background: #252947;
+            border-radius: 10px;
+            color: #F5F5F5;
+            display: flex;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            gap: 5px;
+            margin-top: 12px;
+            padding: 5px 25px 5px 25px;
+            height: 40px;
+        }
+
+        .ant-select-selector {
+            height: 30px;
+        }
+
+        .ant-select-arrow {
+            display: none;
+        }
+    }
+
+    .wallet_payment_history {
+        background: #fff;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        border-radius: 22px;
+        margin-bottom: 20px;
+
+
+        .payment_header {
+            position: sticky;
+            z-index: 999;
+            top: 81px;
+            background: white;
+            margin-left: 5px;
+            padding: 2px 0 1px 0;
+            border-radius: 14px;
+        }
+
+        .payment_select_counter {
+            border-radius: 8px;
+            background-color: #00000047;
+            color: #524e4e;
+            padding: 0px 5px 3px 5px;
+
+            .ant-select-arrow {
+                margin: 0;
+            }
+        }
+
+        .payment_history_head {
+            padding: 15px 0px;
+        }
+
+        .wallet_payment_history {
+            display: flex;
+            background: #F5F5F5;
+            margin: 0 15px;
+            padding: 15px 0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            align-items: baseline;
+
+
+
+            .wallet_payment_serial {
+                font-weight: 500;
+                font-size: 14px;
+                color: #101010;
+                width: 15%;
+                padding-left: 15px;
+            }
+
+            .wallet_payment_name {
+                font-weight: 600;
+                font-size: 14px;
+                color: #252947;
+                width: 16%;
+            }
+
+            .wallet_payment_historydata {
+                font-weight: 500;
+                font-size: 14px;
+                color: #101010;
+                width: 19%;
+                padding-left: 29px;
+
+                .Panid_bttn {
+                    border: 1px solid #50CD89;
+                    border-radius: 4px;
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: center;
+                    color: #50CD89;
+                    background-color: transparent;
+
+                }
+            }
+
+            .wallet_payment_remittance {
+                font-weight: 600;
+                font-size: 12px;
+                color: #878787;
+            }
+
+            .wallet_payment_amnt {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 11%;
+            }
+        }
+
+    }
+
+    .payment_header {
+
+
+        .list_of_payment {
+            display: flex;
+            padding-left: 18px;
+            padding-top: 18px;
+            padding-bottom: 8px;
+        }
+
+        .payment_serial {
+            font-weight: 700;
+            font-size: 16px;
+            color: #383838;
+            padding: 0;
+            width: 15%;
+        }
+
+        .payment_ProjectName {
+            font-weight: 700;
+            font-size: 16px;
+            color: #383838;
+            width: 16%;
+
+        }
+
+        .payment_Remittance {
+            font-weight: 700;
+            font-size: 16px;
+            color: #383838;
+            width: 23%;
+            padding-left: 17px;
+        }
+
+        .payment_ReceivedDate {
+            font-weight: 700;
+            font-size: 16px;
+            color: #383838;
+            width: 16%;
+
+        }
+
+        .payment_TransactionID {
+            font-weight: 700;
+            font-size: 16px;
+            color: #383838;
+            width: 18%;
+            padding-left: 14px;
+
+
+        }
+
+        .payment_Amount {
+            font-weight: 700;
+            font-size: 16px;
+            color: #383838;
+            width: 13%;
+
+        }
+    }
+}

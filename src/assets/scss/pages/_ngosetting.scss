@@ -1,0 +1,372 @@
+.total_ngosetting_page {
+    .ngosetting_headers {
+        h1 {
+            font-weight : 700;
+            font-size   : 32px;
+            color       : #000000;
+            margin      : 0;
+            padding-top : 60px;
+            padding-left: 10px;
+        }
+
+        h6 {
+            font-weight : 700;
+            font-size   : 26px;
+            color       : #252947;
+            margin      : 0;
+            padding-top : 30px;
+            padding-left: 10px;
+        }
+    }
+
+    .ngosetting_sec1 {
+        display        : flex;
+        justify-content: space-between;
+        margin         : 20px 10px;
+        background     : #FFF;
+        padding        : 20px 15px;
+        box-shadow     : 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius  : 8px;
+
+        .ngosetting_sec1_header {
+            h6 {
+                font-weight: 700;
+                font-size  : 15px;
+                color      : #252947;
+                margin     : 0;
+                padding-bottom: 8px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size  : 12px;
+                color      : #878787;
+                margin     : 0;
+            }
+        }
+
+        .change_password_ngosetting_btn {
+
+            .change_password_ngosetting {
+                color     : #FFFFFF;
+                background: #252947;
+                padding   : 0px 65px;
+                height    : 40px;
+                font-size : 13px;
+            }
+        }
+
+    }
+    .ngosetting_sec2_header {
+        font-weight : 700;
+        font-size   : 26px;
+        color       : #252947;
+        margin      : 0;
+        padding-left: 10px;
+    }
+    .ngosetting_sec2 {
+
+        margin       : 20px 10px;
+        background   : #FFF;
+        padding      : 0px 15px;
+        box-shadow   : 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        
+        .ngosetting_sec2_list {
+            display        : flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+
+            .payment_detail {
+                display: flex;
+                gap    : 15px;
+
+                .ngosetting_sec2_img {
+                    img {
+                        width : 100%;
+                        height: 50%;
+                        margin-top: 12px;
+                    }
+                }
+
+                .ngosetting_sec2_content {
+                    h5 {
+                        font-weight: 700;
+                        font-size  : 18px;
+                        color      : #252947;
+                        margin     : 0;
+                    }
+
+                    h6 {
+                        font-weight: 400;
+                        font-size  : 14px;
+                        color      : #878787;
+                        margin: 0 0 10px 0;
+                        padding-top: 5px;
+                    }
+
+                    .switch_btn {
+                        font-weight: 400;
+                        font-size  : 18px;
+                        color      : #878787;
+                        padding-top: 5px;
+                        margin: 0;
+
+                        .switch_btn_span {
+                            padding-right: 15px;
+
+                            .ant-switch {
+                                background: #252947;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .trash_ngo_setting {
+                background   : #f6dae1;
+                height       : 40px;
+                padding      : 7px 7px;
+                border-radius: 8px;
+                margin-top: 15px;
+                img {}
+            }
+        }
+
+    }
+
+    .ngosetting_sec3 {
+        .ngosetting_sec3_header {
+            font-weight : 700;
+            font-size   : 26px;
+            color       : #252947;
+            margin      : 0;
+            padding-left: 10px;
+        }
+
+        .ngosetting_sec3_content {
+            margin       : 20px 10px;
+            background   : #FFF;
+            padding      : 20px 15px;
+            box-shadow   : 0px 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+
+            .ngosetting_sec3_list {
+                display        : flex;
+                justify-content: space-between;
+
+                li {
+                    font-weight: 500;
+                    font-size  : 20px;
+                    color      : #252947;
+                }
+
+                li {
+                    .ant-switch {
+                        background: #252947;
+                    }
+                }
+            }
+        }
+    }
+
+    .ngosetting_sec4 {
+        margin       : 20px 10px;
+        background   : #FFF;
+        padding      : 20px 15px;
+        box-shadow   : 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+        h5 {
+            font-weight: 700;
+            font-size  : 22px;
+            color      : #252947;
+            margin: 0;
+        }
+
+        p {
+            font-weight: 400;
+            font-size  : 18px;
+            color      : #878787;
+        }
+
+        .ngosetting_sec4_btns {
+            display        : flex;
+            justify-content: flex-end;
+            gap            : 20px;
+
+            .ngosetting_sec4_btns_delete {
+                font-weight  : 500;
+                font-size    : 16px;
+                color        : #252947;
+                background   : transparent;
+                border-radius: 8px;
+                border       : 1px solid #252947;
+                width        : 25%;
+                height       : 40px;
+            }
+
+            .ngosetting_sec4_btns_deactivate {
+                font-weight  : 500;
+                font-size    : 16px;
+                color        : #FFF;
+                border-radius: 8px;
+                background   : #252947;
+                border       : none;
+                width        : 25%;
+                height       : 40px;
+            }
+        }
+    }
+
+
+
+}
+
+.ngosetting_drawn_header {
+    display    : flex;
+    align-items: center;
+
+    h2 {
+        font-size   : 16px;
+        font-style  : normal;
+        font-weight : 700;
+        padding-top : 4px;
+        padding-left: 8px;
+    }
+}
+
+.password_total_form {
+    width: 100%;
+
+    .password_inputs {
+        .ant-input-affix-wrapper {
+            width : 50vw;
+            height: 50px;
+        }
+
+        .change_password_setting {
+            width: 20%;
+        }
+    }
+}
+
+.change_password {
+    display        : flex;
+    justify-content: flex-end;
+    width          : 100%;
+
+    .change_password_setting {
+        background   : #252947;
+        border-radius: 8px;
+        font-weight  : 500;
+        font-size    : 16px;
+        color        : #FFFFFF;
+        margin-right : 15px;
+        padding      : 0px 60px;
+        height       : 40px;
+    }
+}
+
+.account_delete {
+    h5 {
+        font-weight: 700;
+        font-size  : 26px;
+        color      : #252947;
+        margin     : 0;
+        padding    : 10px 0px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size  : 18px;
+        color      : #878787;
+    }
+
+    .account_delete_btns {
+        display        : flex;
+        justify-content: flex-end;
+        gap            : 10px;
+        margin-right   : 40px;
+
+        .account_delete_btns_cancel {
+            font-weight  : 500;
+            font-size    : 16px;
+            text-align   : center;
+            color        : #101010;
+            background   : #EDEDED;
+            border-radius: 8px;
+            padding      : 0px 25px;
+            height       : 35px;
+        }
+
+        .account_delete_btns_remove {
+            font-weight  : 500;
+            font-size    : 16px;
+            color        : #FFFFFF;
+            background   : #252947;
+            border-radius: 8px;
+            padding      : 0px 25px;
+            height       : 35px;
+        }
+    }
+}
+
+.total_sec_delete {}
+
+.delete_account_total {
+
+    h5 {
+        font-weight : 700;
+        font-size   : 20px;
+        color       : #252947;
+        margin      : 0;
+        padding-left: 20px;
+        padding-top : 20px;
+    }
+
+    p {
+        font-weight : 400;
+        font-size   : 14px;
+        color       : #878787;
+        padding-left: 20px;
+
+        .highlight {
+            color: #252947;
+        }
+    }
+
+    .delete_account_total_btns {
+        background     : #F5F5F5;
+        align-items    : flex-end;
+        display        : flex;
+        justify-content: flex-end;
+        gap            : 10px;
+        padding        : 20px 20px;
+
+        .delete_account_btn_cancel {
+            font-weight: 500;
+            font-size  : 16px;
+            color      : #101010;
+            border     : none;
+            background : transparent;
+
+        }
+
+        .delete_account_btn_delete {
+            font-weight  : 500;
+            font-size    : 16px;
+            background   : #252947;
+            border-radius: 8px;
+            padding      : 0px 25px;
+            color        : #fff;
+        }
+    }
+}
+
+.modal_content {
+    .ant-modal-content {
+        padding: 0 !important;
+    }
+}

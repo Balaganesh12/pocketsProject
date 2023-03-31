@@ -1,0 +1,288 @@
+.Update_profile {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .profile_head {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 158.9%;
+        color: #000000;
+    }
+
+    .Account_sec {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding-bottom: 20px;
+
+        .accout_edit {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 60px 0px 60px;
+
+            .account_font {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                color: #252947;
+            }
+
+            .edit_bttn {
+                background: #252947;
+                border-radius: 8px;
+                color: #FFFFFF;
+                padding: 5px 35px 5px 35px;
+                height: 34px;
+                font-weight: 500;
+            }
+        }
+
+        .Account_form {
+
+
+            .form_align {
+                display: grid;
+
+                .save_bttn {
+                    background: #252947;
+                    border-radius: 8px;
+                    color: #FFFFFF;
+                    padding: 5px 35px 5px 35px;
+                    height: 34px;
+                    font-weight: 500;
+                    margin-left: 60px;
+
+                }
+
+                .form_lable {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #000000ad;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            .form_space {
+                padding-left: 60px;
+                width: 100%;
+
+
+
+                .account_inputbox {
+                    width: 300px;
+                    //without-noti-width-500px
+                    border: 1px solid #D6D6D6;
+                    border-radius: 8px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                .ant-select-selector {
+                    height: 35px;
+                }
+
+                .form_sec_two {
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+
+    .about_sec {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+
+        .accout_edit {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 60px 0px 60px;
+
+            .account_font {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                color: #252947;
+            }
+
+            .edit_bttn {
+                background: #252947;
+                border-radius: 8px;
+                color: #FFFFFF;
+                padding: 5px 35px 5px 35px;
+                height: 34px;
+                font-weight: 500;
+            }
+        }
+
+        .Account_form {
+            .form_align {
+                display: grid;
+                padding-left: 60px;
+                padding-right: 60px;
+
+                .save_bttn {
+                    background: #252947;
+                    border-radius: 8px;
+                    color: #FFFFFF;
+                    padding: 5px 35px 5px 35px;
+                    height: 34px;
+                    font-weight: 500;
+                }
+
+                .form_lable {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #000000ad;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+
+
+            .account_inputbox {
+
+                border: 1px solid #D6D6D6;
+                border-radius: 8px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .form_sec_two {
+                margin-left: 30px;
+            }
+
+        }
+    }
+
+    .profile_update {
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+        display: flex;
+        gap: 45px;
+        padding-left: 40px;
+        background: linear-gradient(180deg, #252947 30%, #ffffff 30%);
+
+        margin-bottom: 40px;
+
+        .upload_image {
+            padding-top: 36px;
+
+            .profile {
+
+
+                border: 3px solid #6882A0;
+                filter: drop-shadow(2px 4px 6px rgba(41, 45, 50, 0.12));
+                position: relative;
+                border-radius: 100px;
+                overflow: hidden;
+                background-color: #FFFFFF;
+                cursor: pointer;
+            }
+
+            .edit_profile {
+                position: absolute;
+                top: 47%;
+                left: 24%;
+                cursor: pointer;
+            }
+        }
+
+        .follower_details {
+            margin-top: 80px;
+
+            .followes {
+                display: flex;
+                align-items: center;
+
+                gap: 13px;
+
+                .font_follower {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: #000000;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .follower_text {
+
+                        color: #878787;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.upload_dragger {
+    .dragger {
+        p {
+            color: #7FACD6;
+            font-size: 12px;
+        }
+
+        .photo_mp {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #7FACD6;
+        }
+    }
+
+    .upload_label {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .upload_bttn {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 28px;
+        gap: 10px;
+
+        .cancel_bttn {
+            background: #FFFFFF;
+            border: 0.6px solid #252947;
+            border-radius: 8px;
+            color: #252947;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 0 30px 0 30px;
+        }
+
+        .upload_bttn {
+            background: #252947;
+            border: 0.6px solid #252947;
+            border-radius: 8px;
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 4px 30px 0 30px;
+        }
+    }
+}
+
+.empty_profile {
+    width: 180px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

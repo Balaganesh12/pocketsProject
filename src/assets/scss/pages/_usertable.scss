@@ -1,0 +1,461 @@
+.userDetails {
+    margin-top: 50px;
+
+    .userDetail_table {
+        .ant-table-cell {
+            a {
+                color: rgba(16, 16, 16, 1)
+            }
+        }
+
+        .user_show {
+            display: flex;
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+
+    }
+}
+
+.user_action {
+    color: #252947;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.user_table_align {
+    .ant-table-cell {
+        a {
+            color: #101010;
+            font-weight: 600;
+            font-size: 14px;
+            pointer-events: none;
+            text-decoration-line: underline;
+        }
+    }
+
+    .ant-pagination .ant-pagination-item-active {
+        background: #252947;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+        background-color: #252947;
+    }
+
+    .ant-table-fixed {
+        table-layout: fixed;
+    }
+
+    .ant-table-wrapper .ant-table-thead>tr>th {
+        background: rgba(37, 41, 71, 1);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+
+        .ant-table-row-expand-icon-cell::before {
+            background-color: #252947;
+        }
+    }
+
+    .ant-pagination-prev {
+        a {
+            color: rgba(135, 135, 135, 1);
+        }
+
+        a {
+            color: rgba(135, 135, 135, 1);
+            text-decoration: none;
+        }
+    }
+
+    .ant-pagination-next {
+        a {
+            color: rgba(37, 47, 71);
+        }
+
+        a {
+            color: rgba(37, 47, 71);
+            text-decoration: none;
+        }
+    }
+
+    .ant-pagination .ant-pagination-options {
+        display: none;
+        margin-inline-start: 16px;
+        vertical-align: middle;
+    }
+
+    .ant-pagination .ant-pagination-item a {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .ant-pagination .ant-pagination-item-active {
+        border-color: none;
+    }
+
+    .ant-pagination .ant-pagination-item {
+        border: none;
+        height: 31px;
+    }
+}
+
+.user_details_page {
+    padding-bottom: 15%;
+
+    .user_detaile {
+        .user_name {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .user_profile {
+            width: 130px;
+            height: 130px;
+        }
+    }
+
+    .user_details_form {
+        .user_form_title {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .input_height {
+            width: 90%;
+            height: 47px;
+            // margin-bottom: 20px;
+            padding-top: 4px;
+            margin: 0;
+        }
+
+        .user_form_item {
+            margin: 0;
+        }
+    }
+
+    .bank_details {
+        margin-top: 30px;
+
+        .bank_head {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .user_bank_details {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 18px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+
+            width: 90%;
+
+            .gray_back {
+                background: #F5F5F5;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 25px 5px 20px;
+                margin: 10px 20px 11px 20px;
+
+                .account_details {
+                    display: flex;
+                    gap: 50px;
+                }
+
+                .user_account {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #252947;
+                }
+
+                .user_bank {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #101010;
+                }
+
+            }
+        }
+    }
+}
+
+.userName {
+    cursor: pointer;
+}
+
+.userStatics_page {
+    .user_statics {
+        .user_h2 {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+
+        }
+
+        .total_donation {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+
+            .donation_sec {
+                background: #FFFFFF;
+                box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
+                border-radius: 18px;
+                width: 30%;
+                padding: 0 7px 16px 21px;
+
+                .details_h3 {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #878787;
+                }
+
+                .euro {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 33px;
+                    color: #383838;
+                }
+
+                .detaile_dev {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .total_list {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 18px;
+            padding: 7px 0px 9px 19px;
+            margin-top: 22px;
+            width: 98%;
+
+            .requr_donation {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #252947;
+
+            }
+
+            .donation_list {
+
+
+                .user_trans {
+                    display: flex;
+                    justify-content: space-between;
+                    background: #F5F5F5;
+                    border-radius: 10px;
+                    padding: 14px 0px 14px 14px;
+                    width: 95%;
+                    margin-top: 12px;
+
+                    .duration {
+                        display: flex;
+
+                        gap: 12px;
+
+                        .pic {
+                            width: 40px;
+                            height: 40px;
+                        }
+
+                        .child_details {
+                            font-family: 'Roboto', sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: #252947;
+                            margin: 0;
+                        }
+
+                        .month {
+                            font-family: 'Roboto', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            color: #C2C2C2;
+                            margin: 0;
+                            padding-top: 5px;
+                        }
+                    }
+
+                    .gift_sec {
+                        display: flex;
+                        gap: 30px;
+                        padding-right: 40px;
+
+                        .gif {
+                            display: flex;
+                            align-items: center;
+                            font-family: 'Roboto', sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 12px;
+                            color: #101010;
+
+                            .green_text {
+                                color: #50CD89;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.message_form {
+    .user_form_title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .input_height {
+        width: 90%;
+        height: 47px;
+        // margin-bottom: 20px;
+        padding-top: 4px;
+        margin: 0;
+    }
+
+    .user_form_item {
+        margin: 0;
+    }
+
+    .textarea_height {
+        width: 90%;
+        // margin-bottom: 20px;
+        padding-top: 4px;
+        margin: 0;
+    }
+
+    .create_bttn {
+        background: #252947;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 5px 50px 5px 50px;
+        height: 37px;
+    }
+
+    .send_bttn {
+        margin-top: 30px;
+        display: flex;
+       justify-content: flex-end;
+        margin-right: 56px;
+    }
+}
+
+.user_head {
+    margin-left: 5px;
+}
+
+.userName {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #101010;
+    width: 140px;
+
+}
+
+.useremail {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.userphone {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101010;
+
+}
+
+.table_image {
+    width: 82px;
+
+    img {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+.filter_selectuser {
+    width: 180px;
+    margin-top: 3px;
+
+    .ant-select-selector {
+        height: 37px;
+    }
+
+    .ant-select-selector:hover {
+        border-color: #252947;
+    }
+
+    .form_list {
+        background: #FFFFFF;
+        /* MAIN */
+
+        border: 1px solid #252947;
+        border-radius: 7px;
+    }
+}
+
+.user_table_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

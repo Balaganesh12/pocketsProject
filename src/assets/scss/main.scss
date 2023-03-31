@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import 'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins';
+
+// 2. Vendors
+@import 'vendors/normalize';
+
+// 3. Base stuff
+@import 'base/base',
+'base/fonts',
+'base/typography',
+'base/helpers';
+
+// 4. Layout-related sections
+@import 'layout/header',
+'layout/footer';
+
+// 5. Components
+@import 'components/button';
+
+// 6. Page-specific styles
+@import 'pages/dashboard',
+'pages/project',
+'pages/charity',
+'pages/login',
+'pages/search',
+'pages/wallet',
+'pages/payment',
+'pages/projectwise',
+'pages/forgotpassword',
+'pages/revenue',
+'pages/paymenthistory',
+'pages/ngosetting',
+'pages/updateProfile',
+'pages/changepassword',
+'pages/usertable',
+'pages/charityDashboard',
+'pages/transhistory',
+'pages/charityFollower',
+'pages/notification',
+'pages/messageuser',
+'pages/ticketuser',
+'pages/adminDashboard',
+'pages/inbox';
+
+
+
+@import 'pages/dashboard',
+'pages/post';
+
+// 7. Themes
+@import 'themes/default';

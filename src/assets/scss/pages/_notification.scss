@@ -1,0 +1,31 @@
+.notification_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 10px;
+    width: 97%;
+
+    .notificationHeader {
+        margin: 0;
+        padding-left: 12px;
+    }
+}
+
+.notificatioins {
+    padding-left: 5px;
+    align-items: flex-start;
+    padding-top: 12px;
+    height: 58px;
+    width: 97%;
+}
+
+.react-calendar__tile {
+    font-size: 12px;
+}
+
+.back_side_arrow{
+    img{
+        background: #fff;
+    }
+   
+}

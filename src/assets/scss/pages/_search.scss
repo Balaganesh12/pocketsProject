@@ -1,0 +1,191 @@
+.search_page {
+    .search_top {
+        .search_title {
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        .search_bar {
+            display: flex;
+            justify-content: space-between;
+
+            .search_sec {
+                display: flex;
+                align-items: center;
+                overflow: auto;
+                width: 75%;
+
+                .input_height_search {
+                    height: 72%;
+                }
+
+
+
+            }
+
+            .filter_search {
+                .ant-select-selector {
+                    height: 37px;
+                    padding-right: 40px;
+                }
+
+                .ant-select-selection-placeholder {
+                    color: #000000;
+                }
+
+                .ant-select-arrow {
+                    color: #000000;
+                }
+            }
+        }
+
+        .search_result_bttn {
+            Button {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                /* identical to box height */
+                background: #F5F5F5;
+                border-radius: 8px;
+                color: #878787;
+                margin-right: 15px;
+                margin-top: 8px;
+            }
+        }
+
+
+    }
+
+    .search_count {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #878787;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .search_card_sec {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .search_card {
+            width: 48%;
+
+            .card_image {
+
+                .card_slider {
+                    img {
+
+                        border-radius: 10px 10px 0px 0px;
+                    }
+
+                }
+
+            }
+
+            .ant-card-body {
+                padding: 0;
+            }
+
+            .total_card_content {
+                padding: 5px 15px 18px 15px;
+
+                .card_heading {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .cardPara {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #101010;
+                }
+
+                .cardBody {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #101010;
+                }
+            }
+
+            .like_bttn {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                span {
+                    font-size: 12px;
+                }
+
+                .like_align {
+                    color: #101010;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.search_raise_ticket {
+    .forgot_username {
+        .input_height {
+            width: 90%;
+            // margin-bottom: 20px;
+            padding-top: 4px;
+        }
+
+        .ant-select-selector {
+            height: 38px;
+        }
+    }
+
+
+
+    .textarea_height {
+        width: 90%;
+        padding-top: 8px;
+
+    }
+
+    .priview_sec {
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-end;
+
+        .priview_bttn {
+            color: #252947;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            padding: 0 35px 0 35px;
+            background-color: transparent;
+            border: 0.6px solid #252947;
+            border-radius: 8px;
+
+        }
+
+        .create_bttn {
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            padding: 0 35px 0 35px;
+            background: #252947;
+            border: 0.6px solid #252947;
+            border-radius: 8px;
+            margin-left: 15px;
+            margin-right: 55px;
+
+        }
+    }
+}
+
+.search_result_empty {
+    margin-top: 20px;
+}

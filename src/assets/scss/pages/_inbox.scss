@@ -1,0 +1,328 @@
+$color_1           : white;
+$color_2           : #100f0f;
+$color_3           : #383838;
+$color_4           : #878787;
+$color_5           : #101010;
+$color_6           : #7facd6;
+$color_7           : #000000;
+$color_8           : #252947;
+$color_9           : #6882a0;
+$color_10          : #fff;
+$color_11          : #c2c2c2;
+$color_12          : #606060;
+$color_13          : rgba(220, 0, 54, 1);
+$color_14          : #FFFFFF;
+$font-family_1     : 'Roboto', sans-serif;
+$background-color_1: #282c34;
+$background-color_3: #f7f8fa;
+$background-color_4: #ffffff;
+$background-color_5: #373c41;
+$background-color_6: #252947;
+$border-color_1    : #7facd6;
+
+.total_inbox {
+    .inbox_tittle {
+        display        : flex;
+        justify-content: space-between;
+        margin         : 0 5px;
+    }
+
+    .new_mail_btn {
+        margin-top: 20px;
+
+        Button {
+            background    : #252947;
+            border-radius : 10px;
+            padding-bottom: 30px;
+            display       : flex;
+            padding-top   : 7px;
+
+            span {
+                font-family   : 'Roboto', sans-serif;
+                font-weight   : 600;
+                font-size     : 14px;
+                letter-spacing: -0.3px;
+                color         : #F5F5F5;
+            }
+
+            .newmail_icon {}
+        }
+    }
+
+    .search-inboxPage {
+        margin-bottom: 30px;
+        box-sizing   : border-box;
+        height       : 49px;
+        background   : #FFFFFF;
+        border       : 1px solid #F5F5F5;
+        box-shadow   : 0px 2px 8px rgba(0, 0, 0, 0.04);
+        border-radius: 8px;
+
+        input[type="text"] {
+            border : 0px;
+            width  : 65%;
+            padding: 15px 10px;
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        button {
+            border       : 0px;
+            background   : none;
+            color        : $color_10;
+            float        : right;
+            padding      : 10px;
+            cursor       : pointer;
+            width        : 57px;
+            height       : 50px;
+            background   : #252947;
+            box-shadow   : 0px 2px 8px rgba(0, 0, 0, 0.04);
+            border-radius: 8px;
+        }
+    }
+
+    .inbox-commentsContent {
+        display        : flex;
+        justify-content: space-between;
+        width          : 100%;
+        margin         : 0 20px;
+
+        .inbox_list {
+            margin-top  : 5px;
+            display     : flex;
+            gap         : 10px;
+            padding-left: 7px;
+
+            h5 {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size  : 14px;
+                color      : #252947;
+                margin     : 0;
+            }
+
+            h6 {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size  : 12px;
+                padding-top: 5px;
+                color      : #606060;
+                margin     : 0;
+            }
+        }
+
+        .inbox_list_item {
+            padding: 0;
+
+            .inbox_list_item_list {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size  : 12px;
+                color      : #101010;
+            }
+
+            .inboxCommentTime {
+                height     : 20px;
+                font-family: $font-family_1;
+                font-style : normal;
+                font-weight: 500;
+                font-size  : 12px;
+                line-height: 20px;
+                color      : $color_4;
+            }
+
+        }
+    }
+
+
+    .messagereply {
+        padding-top: 20px;
+    }
+
+    .message_popover {
+        padding-top: 10px;
+        .anticon svg {
+            font-size: 35px;
+            color: #252947;
+        }
+    }
+    .ticket_list_item{
+        display: flex;
+        margin-top: 15px;
+        span{
+
+        }
+        h5{
+            padding-left: 5px;
+            padding-top: 5px;
+            margin: 0;
+            cursor: pointer;
+        }
+    }
+    .tabs_header_ticket{
+        width: 100%;
+        display: flex;
+        cursor: pointer;
+        background: #fff;
+        padding: 0;
+        border-radius: 10px;
+        justify-content: flex-start;
+        padding-left: 50px;
+        margin-bottom: 18px;
+        .tab_header_content_ticket {
+            display: flex;
+            cursor: pointer;
+            background: #fff;
+            padding: 0;
+            border-radius: 10px;
+            margin: 0;
+            gap: 50px;
+        
+            li {
+                display    : inline-block;
+                color      : #878787;
+                font-weight: 500;
+                font-size  : 16px;
+                padding    : 20px 0;
+                position: relative;
+        
+                &.active {
+                    color        : #252947;
+                    border-bottom: 3px solid;
+                    margin: 0 0 0 3px;
+                }
+        
+                span {
+                    &.active {
+                        border        : 0.5px solid #878787;
+                        background    : #252947;
+                        border-radius : 8px;
+                        color         : #ffffff;
+                        letter-spacing: -0.3px;
+                        font-weight   : 500;
+                        font-size     : 12px;
+                        padding       : 3px 7px;
+                    }
+                }
+            }
+        
+            // li::after {
+            //     content         : "";
+            //     position        : absolute;
+            //     transform       : scaleX(0);
+            //     height          : 3px;
+            //     bottom          : 0;
+            //     left            : 0;
+            //     right           : 0px;
+            //     left            : -1px;
+            //     background      : #252947;
+            //     transform-origin: bottom right;
+            //     transition      : transform 0.25s ease-out;
+            //     margin          : 0;
+            // }
+        
+            li .active::after {
+                display: none;
+            }
+        
+            li:hover::after {
+                transform       : scaleX(1);
+                transform-origin: bottom left;
+            }
+        
+            li .active:hover::after {
+                display: none;
+            }
+        
+            .tab_count {
+                border        : 0.5px solid #878787;
+                border-radius : 8px;
+                color         : #878787;
+                letter-spacing: -0.3px;
+                font-weight   : 500;
+                font-size     : 12px;
+                padding       : 3px 7px;
+                width         : 25px;
+            }
+        }
+    }
+}
+
+.More_list_inbox {
+    display: flex;
+    cursor: pointer;
+
+    h5 {
+        font-weight: 500;
+        color: #101010;
+        font-size: 14px;
+        padding-left: 7px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    span {
+        width: 20px;
+    }
+}
+
+.create_inbox_table {
+    margin: 0;
+    color: #383838;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.create_inbox_btn {
+    background: #252947;
+    border-radius: 8px;
+    width: 34%;
+    height: 44px;
+    margin-left: 4%;
+    padding-left: 15px;
+    float: right;
+    color: #fff;
+    margin-top: 31px;
+}
+
+.create_inbox_btn:hover {
+    background: #252947;
+    border-radius: 8px;
+    width: 34%;
+    height: 44px;
+    margin-left: 4%;
+    padding-left: 15px;
+    float: right;
+    color: #fff;
+    margin-top: 31px;
+}
+
+.create_inbox_reply_btn {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #252947;
+    width: 34%;
+    height: 44px;
+    margin-left: 4%;
+    padding-left: 15px;
+    float: right;
+    color: #252947;
+    margin-top: 31px;
+}
+
+.create_inbox_reply_btn:hover {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #252947;
+    width: 34%;
+    height: 44px;
+    margin-left: 4%;
+    padding-left: 15px;
+    float: right;
+    color: #252947;
+    margin-top: 31px;
+}

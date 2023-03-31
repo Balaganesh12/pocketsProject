@@ -1,0 +1,745 @@
+.total_wallet {
+    padding-bottom: 20px;
+
+    .total_wallet_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+        margin-right: 32px;
+
+        h1 {
+            padding-left: 10px;
+            font-weight: 700;
+            font-size: 32px;
+            color: #000000;
+        }
+
+        .ant-select-selector {
+            height: 35px;
+            border: 1px solid #252947;
+            padding: 0 15px 0 15px;
+        }
+
+        .ant-select-selection-placeholder {
+            color: #252947;
+        }
+
+        .ant-select-selector:hover {
+            border-color: #252947;
+        }
+
+
+
+    }
+
+    .wallet_section1 {
+        .wallet_header {
+            background: #fff;
+            width: 99%;
+            border-radius: 22px;
+            margin-bottom: 20px;
+
+            h5 {
+                font-weight: 400;
+                font-size: 16px;
+                color: #878787;
+                padding-top: 15px;
+                padding-left: 15px;
+                margin: 0;
+                padding-bottom: 10px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            h1 {
+                padding-left: 15px;
+                margin: 0;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+            }
+
+            .wallet_progress {
+                width: 90%;
+                padding-left: 15px;
+            }
+
+            .list_of_wallet {
+                display: flex;
+                gap: 7px;
+                margin: 0;
+                padding-bottom: 10px;
+
+                li {
+                    h6 {
+                        margin: 0;
+                        padding-top: 3px;
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #C2C2C2;
+
+                        .collect_amnt {
+                            color: #252947;
+                        }
+
+                        .collect_gift {
+                            color: #7FACD6;
+                        }
+                    }
+                }
+            }
+        }
+
+        .calendar_count {
+            display: flex;
+
+            .daily_count {
+                border-radius: 18px;
+                background: #fff;
+                width: 45%;
+                padding: 10px 15px;
+                margin-right: 15px;
+
+                h5 {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #878787;
+                    margin: 0;
+                    padding-top: 10px;
+                }
+
+                h1 {
+                    color: #252947;
+                    padding-bottom: 14px;
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+
+                }
+            }
+        }
+    }
+
+
+    .wallet_section2 {
+        .top_project {
+            background: #fff;
+            border-radius: 18px;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            width: 97%;
+
+            h1 {
+                margin: 0;
+                font-weight: 700;
+                font-size: 16px;
+                color: #252947;
+                padding-top: 15px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+            }
+
+            .top_project_list {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 15px;
+                background: #F5F5F5;
+                border-radius: 10px;
+                padding: 7px 15px;
+
+                .project_list_detail {
+                    h5 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #252947;
+                        margin: 0;
+                        padding-top: 12px;
+                    }
+
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        color: #C2C2C2;
+                        margin: 0;
+                        font-size: 12px;
+                        padding-top: 3px;
+                    }
+                }
+
+                .project_list_amount {
+                    h4 {
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #252947;
+                    }
+                }
+            }
+        }
+
+        .wallet_payment {
+            background: #fff;
+            border-radius: 18px;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            width: 95%;
+            margin-left: 5px;
+            height: 69vh;
+
+
+
+            .walletpayment_header {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 15px;
+
+                h1 {
+                    margin: 0;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #252947;
+                    padding-left: 20px;
+                    cursor: pointer;
+                }
+
+                img {
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+            }
+
+
+            .wallet_payment_list {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 15px;
+                background: #F5F5F5;
+                border-radius: 10px;
+                padding: 7px 15px;
+
+                .wallet_list_detail {
+                    display: flex;
+
+                    h5 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #252947;
+                        margin: 0;
+                        padding-top: 12px;
+                    }
+
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        color: #C2C2C2;
+                        margin: 0;
+                        font-size: 12px;
+                        padding-top: 3px;
+                    }
+
+                    img {
+                        margin-top: 7px;
+                    }
+
+                    .wallet_payment_date {
+                        padding-left: 10px;
+                    }
+                }
+
+                .wallet_list_amount {
+                    h4 {
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #3CDB97;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+    .wallet_section3 {
+        background: #FFFFFF;
+        border-radius: 30px;
+        width: 98%;
+        padding-bottom: 1px;
+        margin-bottom: 30px;
+
+        .wallet_section3_header {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 15px;
+            padding: 25px 0;
+
+
+            h1 {
+                font-weight: 700;
+                font-size: 16px;
+                color: #252947;
+                margin: 0;
+                cursor: pointer;
+            }
+
+            img {
+                cursor: pointer;
+            }
+
+
+        }
+
+        .wallet_align3 {
+            display: flex;
+            justify-content: space-between;
+            background: #F5F5F5;
+            margin: 0 15px;
+            padding: 10px 0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+
+            .wallet_project_wise {
+                display: flex;
+                justify-content: space-around;
+                width: 70%;
+
+                .wallet_project_name {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #252947;
+                    width: 28%;
+                }
+
+                .wallet_project_date {
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #878787;
+                    width: 20%;
+                }
+
+                .wallet_project_amnt {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #3CDB97;
+                    width: 7%;
+                }
+            }
+
+            .wallet_project_wise3 {
+                .wallet_project_amnt2 {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #3CDB97;
+                    width: 7%;
+                    list-style-type: none;
+                    padding-right: 22px;
+                }
+            }
+        }
+
+
+    }
+}
+
+.tabhideview {
+    display: none;
+}
+
+.wallet_section2 {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 98%;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+
+    .wallet_section2_header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+        padding: 25px 0;
+
+
+        h1 {
+            font-weight: 700;
+            font-size: 16px;
+            color: #252947;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+
+    }
+
+    .amount_align2 {
+        background: #F5F5F5;
+        margin: 0 15px;
+        padding: 10px 0;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+
+        .wallet_project_wise3 {
+            .wallet_project_amnt2 {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 7%;
+                list-style-type: none;
+                padding-right: 22px;
+            }
+        }
+
+        .wallet_project_wise2 {
+
+            display: flex;
+            justify-content: space-between;
+            width: 55%;
+
+            .wallet_project_name2 {
+                font-weight: 500;
+                font-size: 14px;
+                color: #252947;
+                width: 50%;
+            }
+
+            .wallet_project_date2 {
+                font-weight: 600;
+                font-size: 12px;
+                color: #878787;
+                width: 40%;
+            }
+
+
+        }
+    }
+
+
+}
+
+.wallet_section_user {
+
+    .top_project {
+        background: #fff;
+        border-radius: 18px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        width: 97%;
+
+        h1 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 16px;
+            color: #252947;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+        }
+
+        .top_project_list {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 15px;
+            background: #F5F5F5;
+            border-radius: 10px;
+            padding: 7px 15px;
+
+            .project_list_detail {
+                h5 {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #252947;
+                    margin: 0;
+                    padding-top: 12px;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    color: #C2C2C2;
+                    margin: 0;
+                    font-size: 12px;
+                    padding-top: 3px;
+                }
+            }
+
+            .project_list_amount {
+                h4 {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #252947;
+                }
+            }
+        }
+    }
+
+    .wallet_payment {
+        background: #fff;
+        border-radius: 18px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        width: 95%;
+        margin-left: 5px;
+
+        .walletpayment_header {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+
+            h1 {
+                margin: 0;
+                font-weight: 700;
+                font-size: 16px;
+                color: #252947;
+                padding-left: 20px;
+                cursor: pointer;
+            }
+
+            img {
+                margin-right: 20px;
+                cursor: pointer;
+            }
+        }
+
+
+        .wallet_payment_list {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 15px;
+            background: #F5F5F5;
+            border-radius: 10px;
+            padding: 7px 15px;
+
+            .wallet_list_detail {
+                display: flex;
+
+                h5 {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #252947;
+                    margin: 0;
+                    padding-top: 12px;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    color: #C2C2C2;
+                    margin: 0;
+                    font-size: 12px;
+                    padding-top: 3px;
+                }
+
+                img {
+                    margin-top: 7px;
+                }
+
+                .wallet_payment_date {
+                    padding-left: 10px;
+                }
+            }
+
+            .wallet_list_amount {
+                h4 {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #3CDB97;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+.wallet_section3_user {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 98%;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+
+    .wallet_section3_header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+        padding: 25px 0;
+
+
+        h1 {
+            font-weight: 700;
+            font-size: 16px;
+            color: #252947;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+
+    }
+
+    .wallet_align3 {
+        display: flex;
+        justify-content: space-between;
+        background: #F5F5F5;
+        margin: 0 15px;
+        padding: 10px 0;
+        border-radius: 10px;
+        margin-bottom: 15px;
+
+        .wallet_project_wise {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+
+            .wallet_project_name {
+                font-weight: 500;
+                font-size: 14px;
+                color: #252947;
+                width: 20%;
+            }
+
+            .wallet_project_date {
+                font-weight: 600;
+                font-size: 12px;
+                color: #878787;
+                width: 20%;
+            }
+
+            .wallet_project_amnt {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 7%;
+            }
+        }
+
+        .wallet_project_wise3 {
+            .wallet_project_amnt2 {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 7%;
+                list-style-type: none;
+                padding-right: 22px;
+            }
+        }
+    }
+
+
+}
+
+.trans_history {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 98%;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+
+    .wallet_section3_header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+        padding: 25px 0;
+
+
+        h1 {
+            font-weight: 700;
+            font-size: 16px;
+            color: #252947;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+
+    }
+
+    .wallet_align3 {
+        display: flex;
+        justify-content: space-between;
+        background: #F5F5F5;
+        margin: 0 15px;
+        padding: 6px 0;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        align-items: baseline;
+
+        .wallet_project_wise {
+            display: flex;
+            width: 70%;
+            gap: 25px;
+
+            .wallet_project_name {
+                font-weight: 500;
+                font-size: 14px;
+                color: #252947;
+                width: 28%;
+            }
+
+            .wallet_project_date {
+                font-weight: 600;
+                font-size: 12px;
+                color: #878787;
+                width: 20%;
+            }
+
+            .wallet_project_amnt {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 7%;
+            }
+        }
+
+        .wallet_project_wise3 {
+            display: flex;
+            align-items: baseline;
+            gap: 20px;
+
+            .Panid_bttn {
+                border: 1px solid #50CD89;
+                border-radius: 4px;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                color: #50CD89;
+                background-color: transparent;
+
+            }
+
+            .wallet_project_amnt2 {
+                font-weight: 700;
+                font-size: 14px;
+                color: #3CDB97;
+                width: 60px;
+                list-style-type: none;
+                padding-right: 22px;
+            }
+        }
+    }
+
+
+}
+
+.select-selector:hover {
+    border-color: #252947;
+
+}

@@ -1,0 +1,189 @@
+.total_payment_history {
+    .revenue_page_payment {
+        display        : flex;
+        justify-content: space-between;
+
+        .revenue_content_payment {
+            display: flex;
+            gap    : 10px;
+
+            .revenue_img_payment {
+                img {
+                    border-radius: 8px;
+                    width        : 130px;
+                    height       : 130px;
+                }
+            }
+
+            .revenue_detail_payment {
+                .project_title_revenue_payment {
+                    font-weight: 600;
+                    font-size  : 16px;
+                    color      : #101010;
+                    margin     : 0px;
+                }
+
+                .project_date_revenue_payment {
+                    font-weight: 400;
+                    font-size  : 14px;
+                    color      : #878787;
+                }
+
+                .pockets_medico_button_payment {
+                    border       : 0.6px solid #7FACD6;
+                    border-radius: 4px;
+                    font-weight  : 500;
+                    font-size    : 14px;
+                    color        : #7FACD6;
+                    background   : transparent;
+                    height       : 24px;
+                }
+
+                .days_left_tag_payment {
+                    padding-top: 20px;
+
+                    .days_left_revenue_payment {
+                        .ant-tag {
+                            color        : #3CDB97;
+                            background   : #50CD89;
+                            opacity      : 0.1;
+                            border-radius: 4px;
+                            font-weight  : 600;
+                            font-size    : 14px;
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    .total_data_payment {
+        background    : #F5F5F5;
+        box-shadow    : 0px 3px 12px rgb(0 0 0 / 6%);
+        border-radius : 18px;
+        padding-bottom: 15px;
+        margin-top    : 15px;
+
+        .payment_history_lists {
+            display: flex;
+            margin : 0 18px;
+
+            .input_height_comment {
+                height    : 30px;
+                margin-top: 20px;
+            }
+
+            img {
+                height    : 50px;
+                margin-top: 12px;
+            }
+        }
+
+        .payment_history_list_items {
+            display         : flex;
+            background      : #FFFFFF;
+            border-radius   : 10px;
+
+            .payment_history_list_items_img {
+                padding-top   : 10px;
+                padding-left  : 10px;
+                padding-bottom: 5px;
+            }
+
+            .payment_history_list_name {
+                padding-left: 12px;
+
+                h5 {
+                    font-weight: 500;
+                    font-size  : 14px;
+                    color      : #252947;
+                    margin     : 0;
+                    padding-top: 15px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size  : 12px;
+                    color      : #C2C2C2;
+                    margin     : 0;
+                    padding-top: 5px;
+                }
+            }
+
+            .list_order {
+                display: flex;
+                gap    : 15px;
+
+                li {
+                    .list_order_color {
+                        color: #50CD89;
+                    }
+
+                }
+            }
+
+            .popover_payment {
+                padding-left: 35px;
+                padding-top : 10px;
+                font-size   : 25px;
+            }
+
+        }
+
+        .return_amnt {
+            h6 {
+                font-weight   : 600;
+                font-size     : 14px;
+                color         : #C2C2C2;
+                margin        : 0;
+                padding-bottom: 10px;
+            }
+
+            .return_amnt_btns {
+                display        : flex;
+                justify-content: flex-end;
+                padding-top    : 15px;
+                gap            : 15px;
+
+                .return_amnt_btns_cancel {
+                    font-weight  : 600;
+                    font-size    : 14px;
+                    color        : #878787;
+                    background   : #FFFFFF;
+                    border       : 0.6px solid #878787;
+                    border-radius: 8px;
+                    width: 20%;
+                    border: none;
+                }
+
+                .return_amnt_btns_return {
+                    font-weight  : 600;
+                    font-size    : 14px;
+                    color        : #F5F5F5;
+                    background   : #252947;
+                    border-radius: 8px;
+                    width: 20%;
+                    border: none;
+                }
+            }
+
+        }
+    }
+
+}
+
+.revenue_drawn_list {
+    display       : flex;
+    padding-bottom: 10px;
+
+    h5 {
+        margin      : 0;
+        font-weight : 500;
+        font-size   : 14px;
+        color       : #101010;
+        padding-left: 10px;
+        cursor      : pointer;
+    }
+}

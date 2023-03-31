@@ -1,0 +1,493 @@
+.pockets_container {
+    display: flex;
+}
+
+.pockets_dashboard {
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.dashboard_card {
+    .ant-card-body {
+        padding: 20px 7px 18px 9px;
+    }
+
+    .collected_amount {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .ero_amount {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .Collected {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+
+        .collected_active {
+            width: 8px;
+            height: 8px;
+            background: #252947;
+            border-radius: 2px;
+            display: inline-block;
+            margin-right: 3px;
+        }
+
+        .collected_success {
+            width: 8px;
+            height: 8px;
+            background: #7FACD6;
+            border-radius: 2px;
+            display: inline-block;
+            margin-right: 3px;
+        }
+    }
+
+}
+
+.total_project {
+    .Collected {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .collected_amount {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .collect_percentage {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 33px;
+        color: #383838;
+    }
+
+    .arrow_percentage {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.statistic_row {
+    .Statistics_col {
+        .ant-card-body {
+            padding: 15px 10px 18px 10px;
+        }
+
+
+
+        .Statistics {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+
+    .project_col {
+        .ant-card-body {
+            padding: 0px 10px 18px 10px;
+        }
+
+        .project_title {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+}
+
+.Payment_row {
+    .payment_col {
+        .ant-card-body {
+            padding: 15px 12px 18px 15px;
+        }
+    }
+
+    .post_col {
+        .ant-card-body {
+            padding: 5px 12px 18px 15px;
+        }
+
+        .pockets_post {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #252947;
+
+            .food_img {
+                width: 60px;
+                height: 80px;
+            }
+        }
+
+        .food_des {
+            width: 100%;
+            height: 10%;
+            background: #ffffff;
+            box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
+            border-radius: 8px;
+            margin-bottom: 10px;
+
+            .pockets_post_insights {
+                display: flex;
+                justify-content: space-between;
+                padding: 4px 10px 0px 4px;
+
+                .pockets_post {
+                    display: flex;
+                }
+            }
+
+        }
+    }
+}
+
+.dashboard_align {
+    margin-top: 60px;
+}
+
+.Dashboard_page {
+    .title {
+        padding-left: 15px;
+
+    }
+
+    .dashboard_image {
+        width: 100%;
+    }
+}
+
+.menu_list {
+    background: #252947;
+}
+
+.mainContent {
+    width: calc(100% - 350px);
+    padding: 0 15px 0 125px;
+    background: #f6f9ff;
+    margin: 0;
+}
+
+//-without-noti//
+// .mainContent {
+
+//     width: 100%;
+//     padding: 0 15px 0 125px;
+//     background: #f6f9ff;
+//     margin: 0;
+// }
+
+h1.maincontent_headline {
+    margin: 20px 0 0 15px;
+}
+
+.noti {
+    width: 100%;
+    height: 10%;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.notify_card {
+    width: 100%;
+    height: 10%;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
+    border-radius: 8px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 12px 4px 16px;
+}
+
+.general_date {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #878787;
+    margin-top: -3px;
+}
+
+.pockets_dashboard_general {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.general_amount {
+    margin-top: -11px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #878787;
+}
+
+.general_pounds {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #50CD89;
+}
+
+.general_earn {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #606060;
+    margin-left: 26px;
+}
+
+.general_donors {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #878787;
+    margin-left: 24px;
+    margin-top: -13px;
+}
+
+.general_progress {
+    margin-top: 7px;
+}
+
+.general_card {
+    display: flex;
+    margin-top: -16px;
+}
+
+.general_green_progress {
+    margin-top: 10px;
+}
+
+.dashbaord_payment {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #252947;
+    margin-top: 0px;
+}
+
+.payment_insight {
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.payment_image {
+    margin-top: 9px;
+    width: 100%;
+    height: 72%;
+}
+
+.payment_profile {
+    margin-left: 13px;
+}
+
+.payment_details {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.payment_date {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px;
+    color: #C2C2C2;
+}
+
+.payment_dollar {
+    color: #3CDB97;
+    margin-left: 100px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.post_insights {
+    margin: 0 2px 0 31px;
+    height: 100%;
+}
+
+.pockets_noti_general {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.pockets_food_img {
+    width: 67%;
+    height: 47%;
+    margin-top: 15px;
+}
+
+.pockets_food_dist {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #383838;
+    padding-top: 5px;
+}
+
+.pockets_posted {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #878787;
+    margin-top: -15px;
+}
+
+.post_graph_image {
+    width: 100%;
+    margin-left: 17px;
+    margin-top: 7px;
+}
+
+
+
+.pockets_icons {
+    display: flex;
+    margin-top: -12px;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.pockets_post_icon {
+    width: 33%;
+    height: 71%;
+}
+
+.pockets_post_food {
+    margin-left: 5px;
+    margin-top: -12px;
+}
+
+.pockets_post_count {
+    font-size: 12px;
+}
+
+.post_green_percentage {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 22px;
+    color: rgba(60, 219, 151, 1);
+}
+
+.post_red_percentage {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 22px;
+    color: rgba(220, 0, 54, 1)
+}
+
+.notificationHide {
+    .mainContent {
+        width: 100%;
+    }
+
+    .sideBar {
+        right: -350px;
+    }
+
+    .post_align .Postcard_data .card_post_width {
+        width: 28vw;
+    }
+
+
+}
+
+.sideBarIcon {
+    color: transparent;
+    position: fixed;
+    top: 62%;
+    right: 24%;
+    z-index: 99;
+    cursor: pointer;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+    padding: 7px 3px 7px 5px;
+    border-radius: 25px;
+}
+
+.sideBarIconHide {
+    display: none;
+}
+
+.sideBarIconLeft {
+    display: none;
+}
+
+.sideBarIconLeftHide {
+    color: transparent;
+    position: fixed;
+    top: 62%;
+    right: 0%;
+    z-index: 99;
+    cursor: pointer;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+    padding: 7px 10px 7px 5px;
+    border-radius: 25px;
+
+}

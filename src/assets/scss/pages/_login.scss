@@ -1,0 +1,318 @@
+.total_login {
+    height: 100%;
+
+    // .login_bg {
+    //     display: flex;
+
+    //     .login_empty {
+    //         width     : 55%;
+    //         background: #252947;
+    //         position  : absolute;
+    //         height    : 100vh;
+
+    //         .login_background {
+    //             height: 10%;
+    //         }
+    //     }
+
+    //     .login_image {
+    //         // margin-top: 85px;
+    //         position: absolute;
+    //     }
+    // }
+
+    .login_left_part{
+        
+       img{
+        width: 90%;
+        height: 100%;
+       }
+    }
+
+    .pocket_main_header {
+        margin-left: 54px;
+        padding-top: 15px;
+
+        .login_logo_img {
+            margin-top: 42px;
+
+            .logo_of_login {
+                width: 24%;
+            }
+        }
+
+        .pockets_header {
+            height     : 40px;
+            font-style : normal;
+            font-weight: 700;
+            font-size  : 42px;
+            font-family: 'Roboto', sans-serif;
+            color      : #101010;
+        }
+
+        .pockets_para {
+            line-height: 21px;
+            font-size  : 16px;
+            font-style : normal;
+            color      : #878787;
+            width      : 83%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+
+        .login_form {
+            width     : 75%;
+            margin-top: 40px;
+
+            .ant-form-item .ant-form-item-label>label {
+                font-weight: 600;
+                font-size  : 16px;
+                color      : #101010;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .ant-form-item .ant-form-item-explain-error {
+                padding-top: 10px;
+            }
+
+            .ant-input-password {
+                position     : relative;
+                display      : flex;
+                align-items  : center;
+                height       : 58px;
+                font-size    : 14px;
+                width        : 100%;
+                padding      : 7px 11px;
+                line-height  : 1.5;
+                border-radius: 8px;
+                transition   : all 0.2s;
+                font-family  : Mulish;
+                outline      : none;
+                box-shadow   : none;
+                border       : 1px solid #d9d9d9;
+                float        : left;
+                min-height   : 32px;
+
+                input:focus {
+                    outline: none;
+                }
+            }
+
+            .login_password {
+                height: 50px;
+            }
+
+            p {
+                font-weight: 600;
+                font-size  : 16px;
+                line-height: 20px;
+            }
+
+            .login_input {
+                height       : 58px;
+                font-size    : 14px;
+                width        : 100%;
+                padding      : 7px 11px;
+                line-height  : 1.5;
+                border-radius: 8px;
+                transition   : all 0.2s;
+                font-family  : 'Roboto', sans-serif;
+                outline      : none;
+                box-shadow   : none;
+                border       : 1px solid #d9d9d9;
+            }
+
+            .login_password_input {
+                .ant-input {
+                    width  : 100%;
+                    outline: none;
+                    border : none;
+                }
+            }
+
+            .pockets_forgot {
+                cursor: pointer;
+                margin: 0;
+                float : left;
+                width : 100%;
+
+                span {
+                    float      : right;
+                    font-size  : 12px;
+                    font-weight: 500;
+                    color      : #606060;
+                }
+            }
+
+            .ant-form-item .ant-form-item-control-input-content {
+                height      : 49px;
+                font-size   : 14px;
+                width       : 100%;
+                border-width: 1px;
+                border-color: #d9d9d9;
+                transition  : all 0.2s;
+                font-family : 'Roboto', sans-serif;
+            }
+
+            .login_button {
+                background   : #252947;
+                width        : 93%;
+                height       : 64px;
+                margin-top   : 20px;
+                font-weight  : 600;
+                font-size    : 16px;
+                margin       : 20px 0 0 20px;
+                color        : #fff;
+                border-radius: 5px;
+
+                span {
+                    font-family: 'Roboto', sans-serif;
+                }
+
+            }
+
+            .getotp {
+                top        : 100px;
+                background : #252947;
+                width      : 77%;
+                left       : 11%;
+                font-weight: 600;
+                font-size  : 16px;
+                color      : #fff;
+                height     : 64px;
+
+                span {
+                    font-weight: 600;
+                    font-size  : 16px;
+                    font-family: 'Roboto', sans-serif;
+                    color      : #FFFFFF;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    // .total_login .login_bg .login_image {
+    //     top: 180px;
+    // }
+
+    .pocket_main_header {
+        margin-top: 180px;
+    }
+
+    .total_login .pocket_main_header .login_logo_img .logo_of_login {
+        width : 50%;
+        height: 50px;
+    }
+
+    .total_login .pocket_main_header .pockets_header {
+        font-size: 45px;
+    }
+
+    .total_login .pocket_main_header .login_form p {
+        font-size: 25px;
+    }
+
+    .total_login .pocket_main_header .login_form .pockets_input {
+        font-size: 30px;
+    }
+
+    .total_login .pocket_main_header .login_form .login_password {
+        font-size: 30px;
+    }
+
+    .total_login .pocket_main_header .login_form .login_button {
+        width        : 100%;
+        left         : 0%;
+        height       : 50px;
+        font-size    : 25px;
+        padding      : 0;
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (min-width: 992px) {}
+
+.activeCover {
+    background: linear-gradient(89.34deg, rgba(255, 255, 255, 0.23) 0.47%, rgba(255, 255, 255, 0) 92.48%);
+    position  : absolute;
+    top       : 0;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    display   : none;
+
+    span {
+        position     : absolute;
+        width        : 5px;
+        top          : 0;
+        bottom       : 0;
+        background   : #fff;
+        left         : 1px;
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+.active .activeCover {
+    display: block;
+}
+
+.menu_list>a {
+    position: relative;
+
+    &:hover .activeCover {
+        display: block;
+    }
+}
+
+.navbar button {
+    -webkit-tap-highlight-color: transparent;
+    cursor                     : pointer;
+    border                     : 0px;
+    appearance                 : none;
+    font-size                  : 16px;
+    background-color           : transparent;
+    text-align                 : left;
+    text-decoration            : none;
+    display                    : block;
+    width                      : 100%;
+    padding                    : 10px;
+    border-radius              : 4px;
+    text-transform             : none;
+    color                      : rgb(0, 0, 0);
+    font-size                  : 14px;
+    line-height                : 1.55;
+    text-decoration            : none;
+    box-sizing                 : border-box;
+    -webkit-box-flex           : 0;
+}
+
+.login_button_back {
+    background : #252947;
+    width      : auto;
+    left       : 11%;
+    margin-top : 20px;
+    font-weight: 600;
+    font-size  : 16px;
+    padding    : 10px 20px;
+    border     : none;
+    color      : #fff;
+    margin-top : 20px;
+    float      : left;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.logout_btn svg {
+    font-size: 17px;
+    color    : #fff;
+}
+
+
+button {
+    cursor: pointer;
+}

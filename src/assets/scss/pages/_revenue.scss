@@ -1,0 +1,165 @@
+.total_revenue_page {
+    .revenue_page {
+        display        : flex;
+        justify-content: space-between;
+
+        .revenue_content {
+            display: flex;
+            gap    : 10px;
+
+            .revenue_img {
+                img {
+                    border-radius: 8px;
+                    width        : 130px;
+                    height       : 130px;
+                }
+            }
+
+            .revenue_detail {
+                .project_title_revenue {
+                    font-weight: 600;
+                    font-size  : 16px;
+                    color      : #101010;
+                    margin     : 0px;
+                }
+
+                .project_date_revenue {
+                    font-weight: 400;
+                    font-size  : 14px;
+                    color      : #878787;
+                }
+
+                .pockets_medico_button {
+                    border       : 0.6px solid #7FACD6;
+                    border-radius: 4px;
+                    font-weight  : 500;
+                    font-size    : 14px;
+                    color        : #7FACD6;
+                    background   : transparent;
+                    height       : 30px;
+                }
+
+                .days_left_tag {
+                    padding-top: 20px;
+
+                    .days_left_revenue {
+                        .ant-tag {
+                            color        : #3CDB97;
+                            background   : #50CD89;
+                            opacity      : 0.1;
+                            border-radius: 4px;
+                            font-weight  : 600;
+                            font-size    : 14px;
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    .revenue_section2 {
+        .revenue_section2_header {
+            h5 {
+                font-weight: 700;
+                font-size  : 18px;
+                color      : #101010;
+            }
+        }
+
+        .revenue_detail_card {
+            background   : #FFFFFF;
+            box-shadow   : 0px 2px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 18px;
+            width        : 30%;
+
+            h6 {
+                font-weight : 500;
+                font-size   : 14px;
+                color       : #878787;
+                margin      : 0;
+                padding-top : 10px;
+                padding-left: 10px;
+            }
+
+            h1 {
+                padding-left  : 10px;
+                padding-bottom: 20px;
+                padding-top   : 20px;
+                font-weight   : 700;
+                font-size     : 26px;
+                color         : #383838;
+                margin        : 0px;
+
+                span {
+                    img {
+                        margin-right: 5px;
+                        padding-top : 3px;
+                    }
+                }
+            }
+        }
+
+        .revenue_list_item {
+            display   : flex;
+            gap       : 25px;
+            margin-top: 25px;
+        }
+    }
+}
+
+.revenue_drawn_list {
+    display       : flex;
+    padding-bottom: 10px;
+
+    h5 {
+        margin      : 0;
+        font-weight : 500;
+        font-size   : 14px;
+        color       : #101010;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+}
+
+.revenue_modal {
+    h1 {
+        font-weight: 700;
+        font-size  : 26px;
+        color      : #252947;
+    }
+
+    p {
+        font-weight: 400;
+        font-size  : 18px;
+        color      : #878787;
+
+    }
+
+    .revenue_modal_btns {
+        gap            : 10px;
+        display        : flex;
+        justify-content: flex-end;
+
+        .revenue_modal_btns_cancel {
+            font-weight  : 500;
+            font-size    : 16px;
+            color        : #101010;
+            background   : #EDEDED;
+            border-radius: 8px;
+            width        : 25%;
+            border       : none;
+        }
+
+        .revenue_modal_btns_ok {
+            font-weight  : 500;
+            font-size    : 16px;
+            color        : #FFFFFF;
+            background   : #252947;
+            border-radius: 8px;
+            width        : 25%;
+            border       : none;
+        }
+    }
+}

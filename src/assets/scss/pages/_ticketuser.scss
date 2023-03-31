@@ -1,0 +1,61 @@
+.total_ticketuser {
+    .ticketuser_list {
+        .ant-form-item-label {
+            color      : #C2C2C2;
+            font-style : normal;
+            font-weight: 600;
+            font-size  : 14px;
+        }
+
+        .ant-input {
+            height: 40px;
+        }
+
+        .ant-input:hover {
+            border-color           : #252947;
+            border-inline-end-width: 1px;
+        }
+
+        .ant-picker {
+            width : 100%;
+            height: 40px;
+        }
+    }
+
+    .message_ticket_section {
+        display        : flex;
+        justify-content: flex-end;
+        width          : 100%;
+
+        .message_chat_btn {
+            background   : #FFFFFF;
+            border       : 0.6px solid #252947;
+            border-radius: 8px;
+            padding      : 0 45px;
+            height       : 44px;
+
+            span {
+                font-weight: 600;
+                font-size  : 14px;
+                text-align : center;
+                color      : #252947;
+            }
+        }
+
+        .message_complete_btn {
+            background   : #252947;
+            border-radius: 8px;
+            padding      : 0 45px;
+            height       : 44px;
+            margin-left: 25px;
+            
+            span {
+                font-weight: 600;
+                font-size  : 14px;
+                text-align : center;
+                color      : #FFFFFF;
+            }
+        }
+    }
+
+}

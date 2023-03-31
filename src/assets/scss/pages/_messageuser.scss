@@ -1,0 +1,33 @@
+.total_messageuser {
+    .messageuser {
+
+        .ant-form-item-label {
+            color      : #C2C2C2;
+            font-style : normal;
+            font-weight: 600;
+            font-size  : 14px;
+        }
+
+        .ant-input:hover {
+            border-color           : #252947;
+            border-inline-end-width: 1px;
+        }
+    }
+
+    .message_send_btn {
+        Button {
+            float        : right;
+            background   : #252947;
+            border-radius: 8px;
+            width        : 25%;
+            height       : 40px;
+
+            span {
+                font-weight: 600;
+                font-size  : 14px;
+                text-align : center;
+                color      : #FFFFFF;
+            }
+        }
+    }
+}

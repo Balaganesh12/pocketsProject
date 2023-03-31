@@ -1,0 +1,777 @@
+$color_1 : white;
+$color_2 : #100f0f;
+$color_3 : #383838;
+$color_4 : #878787;
+$color_5 : #101010;
+$color_6 : #7facd6;
+$color_7 : #000000;
+$color_8 : #252947;
+$color_9 : #6882a0;
+$color_10 : #fff;
+$color_11 : #c2c2c2;
+$color_12 : #606060;
+$color_13 : rgba(220, 0, 54, 1);
+$color_14 : #FFFFFF;
+$font-family_1 : 'Roboto',
+sans-serif;
+$background-color_1: #282c34;
+$background-color_3: #f7f8fa;
+$background-color_4: #ffffff;
+$background-color_5: #373c41;
+$background-color_6: #252947;
+$border-color_1 : #7facd6;
+
+/* project */
+/* charity */
+.App-header {
+	background-color: $background-color_1;
+	min-height: 10vh;
+	display: flex;
+	font-size: calc(10px + 2vmin);
+	color: $color_1;
+}
+
+.pockets_main {
+	background-color: $background-color_4;
+}
+
+
+
+.pockets_para {
+	line-height: 21px;
+	font-size: 16px;
+	font-family: $font-family_1;
+	font-style: normal;
+}
+
+.pockets_forgot {
+	margin-right: 16px;
+	font-size: 11px;
+	text-align: end;
+	font-weight: 500;
+	font-family: $font-family_1;
+}
+
+.PostHeader {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	color: $color_2;
+}
+
+.postButton {
+	box-sizing: border-box;
+	width: 154px;
+	height: 44px;
+	background: #252947;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.postButtontwo {
+	box-sizing: border-box;
+	width: 86px;
+	height: 44px;
+	background: #ffffff;
+	border: 1px solid #252947;
+	border-radius: 10px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: -0.3px;
+	color: $color_3;
+}
+
+.postButtonCenter {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+// .mantine-1shqv4j {
+// 	// background-color: $background-color_3;
+// }
+
+.cardparaTwo {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: $color_4;
+}
+
+.cardPara {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: $color_5;
+}
+
+.cardBody {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	color: $color_5;
+}
+
+.margincard {
+	margin-left: -13px;
+}
+
+.sideMenu {
+	height: 100vh;
+	overflow-y: scroll;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background-color: $background-color_4;
+}
+
+.notificationHeader {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	color: $color_3;
+}
+
+.notifications {
+	display: flex;
+}
+
+.notoficationBody {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 20px;
+	color: $color_5;
+}
+
+.notoficationBodyTwo {
+	font-size: 11px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: $color_4;
+}
+
+.NotificationCard {
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	padding: 3px;
+	margin-bottom: 3px;
+}
+
+.SubMenu {
+	background: #ffffff;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.CardFooter {
+	padding: 10px 20px 5px 5px;
+	border-radius: 10px;
+	background: #fbfbfb;
+	border-radius: 10px;
+}
+
+.CardFootedparra {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.pockets_projects {
+	width: 34%;
+}
+
+.pockets_projects_card {
+	width: 116%;
+}
+
+.pockets_projects_Image {
+	margin-left: -16px;
+	width: 111%;
+	margin-top: -16px;
+}
+
+.pockets_created {
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: -10px;
+	font-family: $font-family_1;
+}
+
+
+
+.tickets {
+	width: 62%;
+	height: 77%;
+	left: 152px;
+	top: 236px;
+	background: #ffffff;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+
+	ul {
+		li {
+			list-style-type: none;
+			height: 30px;
+			font-family: $font-family_1;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20px;
+			color: $color_7;
+			flex: none;
+			order: 1;
+			flex-grow: 0;
+		}
+	}
+}
+
+.wellcomMsg {
+	width: 342px;
+	height: 40px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	color: $color_7;
+}
+
+.faq {
+	display: flex;
+	align-items: center;
+	width: 62%;
+	height: 65%;
+	left: 152px;
+	top: 236px;
+	background: #ffffff;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-bottom: 30px;
+
+	ul {
+		li {
+			list-style-type: none;
+			height: 30px;
+			font-family: $font-family_1;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20px;
+			color: $color_7;
+			flex: none;
+			order: 1;
+			flex-grow: 0;
+		}
+	}
+}
+
+#faqTag {
+	height: 35px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	color: $color_5;
+	gap: 12px;
+}
+
+#ticketTag {
+	gap: 12px;
+	height: 35px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	color: $color_5;
+}
+
+.centeringLists {
+	display: flex;
+	align-items: center;
+}
+
+.iconThunder {
+	color: $color_8;
+}
+
+.iconFaq {
+	color: $color_8;
+}
+
+.iconList {
+	color: $color_9;
+}
+
+.searchBar {
+	input {
+		box-sizing: border-box;
+		width: 884px;
+		height: 64px;
+		background: #ffffff;
+		border: 1px solid #f5f5f5;
+		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+		border-radius: 8px;
+		margin-bottom: 30px;
+		position: relative;
+	}
+
+	button {
+		color: $color_1;
+		right: 0px;
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		background: #252947;
+		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+		border-radius: 8px;
+	}
+}
+
+.msg {
+	width: 62%;
+	height: 77%;
+	background: #ffffff;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.msgHead {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	color: $color_5;
+	gap: 12px;
+	padding-left: 35px;
+}
+
+.textArea {
+	width: 100%;
+	display: flex;
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+
+	textarea {
+		box-sizing: border-box;
+		width: 90%;
+		height: 134px;
+		background: #f5f5f5;
+		border: 0.5px solid #d6d6d6;
+		border-radius: 8px;
+	}
+}
+
+.iconMsg {
+	color: $color_8;
+	display: flex;
+	align-items: center;
+}
+
+.msgSendBtn {
+	input {
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $color_1;
+		width: 20%;
+		height: 37px;
+		margin-bottom: 11px;
+		background: #252947;
+		border-radius: 8px;
+		border: none;
+	}
+
+	display : flex;
+	justify-content: flex-end;
+	align-items : center;
+	padding-right : 35px;
+}
+
+.search {
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	width: 62%;
+	height: 53px;
+	background: #ffffff;
+	border: 1px solid #f5f5f5;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+	border-radius: 8px;
+
+	input[type="text"] {
+		border: 0px;
+		width: 67%;
+
+		&:focus {
+			outline: 0;
+		}
+	}
+
+	button {
+		border: 0px;
+		background: none;
+		color: $color_10;
+		float: right;
+		padding: 10px;
+		cursor: pointer;
+		width: 60px;
+		height: 52px;
+		background: #252947;
+		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+		border-radius: 8px;
+	}
+}
+
+.howTCAcontainer {
+	position: absolute;
+	overflow: auto;
+	right: 0px;
+	top: 0px;
+	width: 748px;
+	height: 1165px;
+	background: #ffffff;
+}
+
+.howTCA {
+	margin-left: 30px;
+}
+
+#HowTCA {
+	cursor: pointer;
+}
+
+#howTCAcontainer {
+	display: none;
+}
+
+// .sideBar{
+// 	width: 130px;
+//     background-color: #f6f9ff;
+//     margin-top: 1px;
+//     position: fixed;
+//     overflow: auto;
+//     padding: 10px 0 10px 0;
+//     height: 100%;
+// }
+
+.sideBar {
+	width: 350px;
+	height: 585px;
+	position: fixed;
+	overflow: auto;
+	right: -15px;
+	top: 30px;
+	background: #ffffff;
+}
+
+.calTag {
+	height: 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 25px;
+	color: #383838;
+	padding-left: 20px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 0px 0;
+	padding-left: 15px;
+}
+
+.notiTag {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	width: 122px;
+	height: 25px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	color: $color_3;
+}
+
+.notificatioinsDiv {
+	position: absolute;
+	top: 80px;
+	left: 10px;
+}
+
+.notificatioins {
+	width: 332px;
+	height: 49px;
+	background: #ffffff;
+	box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
+	border-radius: 8px;
+	margin-bottom: 10px;
+	display: flex;
+
+	img {
+		color: transparent;
+		width: 30px;
+		height: 30px;
+		padding-top: 0px;
+	}
+}
+
+.calender {
+	background: #ffffff;
+	border-radius: 8px;
+	width: 100%;
+
+	.react-calendar {
+		max-width: 100%;
+		background: white;
+		font-family: Arial, Helvetica, sans-serif;
+		line-height: 1.125em;
+		border: none;
+	}
+
+	.react-calendar__viewContainer {
+		margin: 0 15px;
+	}
+
+	.react-calendar__navigation {
+		display: flex;
+		height: 22px;
+		padding-top: 11px;
+		padding-bottom: 5px;
+		padding: 0;
+		margin: 0;
+		margin-top: 10px;
+	}
+
+	.react-calendar__tile {
+		background: transparent;
+		border-radius: 6px;
+		color: #606060;
+	}
+
+	.react-calendar__tile--active {
+		background: transparent;
+		border: 0.5px solid #606060;
+		border-radius: 6px;
+		color: #606060;
+	}
+}
+
+.showCase {
+	position: absolute;
+	left: 9px;
+	bottom: 0px;
+	width: 94%;
+	height: 38%;
+	background: #ffffff;
+	box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
+	border-radius: 8px;
+}
+
+.details {
+	width: 300px;
+	border-radius: 10px;
+	position: absolute;
+	background: #fbfbfb;
+	color: #c2c2c2;
+	left: 20px;
+	padding-top: 10px;
+}
+
+.react-calendar {
+	width: 350px;
+	max-width: 100%;
+	background: white;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.125em;
+}
+
+.packets_notifications {
+	font-size: 12px;
+	color: $color_12 !important;
+	font-family: $font-family_1;
+	margin-left: 5px;
+}
+
+.notification_link {
+	color: $color_13;
+	font-size: 12px;
+	font-family: $font-family_1;
+	text-decoration: underline;
+}
+
+.notification_date {
+	margin-left: 7px;
+}
+
+.pockets_notifications_general {
+	margin: 0;
+	padding-left: 10px;
+}
+
+.pockets_notification_distribution {
+	margin: 0;
+	padding-left: 10px;
+	padding-bottom: 7px;
+}
+
+.notifications_comment {
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0;
+}
+
+.project_table_head {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.project_notification {
+	display: flex;
+}
+
+// .project_table {
+// 	// background: #fff;
+// 	// padding: 2% 3%;
+// 	// border-radius: 5px;
+// 	// margin-right: 69px;
+// }
+
+.project_table_data {
+	background: #F5F5F5;
+}
+
+
+.logo_sidebar {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	color: $color_14;
+	cursor: pointer;
+	margin-top: 22px;
+
+}
+
+.mantine-ThemeIcon-root {
+	border: 0px;
+}
+
+.navbar_list {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+
+	li {
+		padding-bottom: 15%;
+	}
+}
+
+
+
+
+.inbox-headTag {
+	width: 85px;
+	height: 40px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	color: $color_7;
+	margin-bottom: 20px;
+}
+
+
+
+.inboxInnerContainer {
+	height: 100vh;
+	background: #FFFFFF;
+	border-radius: 10px;
+	padding: 0 20px;
+	padding-top: 20px;
+	margin-bottom: 25px;
+}
+
+.inbox-comments {
+	width: 100%;
+	height: 64px;
+	margin-bottom: 20px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+
+
+
+
+.total_head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Page_component {
+	display: flex;
+}
+
+.notificatioinsCommentContent {
+	ul {
+		margin: 0;
+	}
+}
+
+
+.loader-lb {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6509803922);
+	z-index: 1069;
+	text-align: center;
+	color: #fff;
+	padding-top: 130px;
+
+}
+
+.profile_nav {
+	padding-top: 35px;
+}
